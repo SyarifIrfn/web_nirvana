@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=device-width initial-scale=1.0">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <h1>What can Javascript Do?</h1>
+        <p id="demo">Javascript Can Change HTML Content</p>
+        <button 
+        type="button" 
+        onclick='document.getElementById("demo").innerHTML = "Hello Javascript"'>
+        touch me.
+        </button>
+        <hr>
+
+        <h2>Javascript can Change HTML atribute view</h2>
+        <button onclick="document.getElementById('myImage').src='lampu2.gif'">Turn on the light</button>
+        <img id="myImage" src="lampu1.gif" style="width:100px">
+        <button onclick="document.getElementById('myImage').src='lampu1.gif'">Turn off the light</button>
+        <hr>
+
+        <h1>What can Javascript Do?</h1>
+        <p id="satu">JavaScript Can Change HTML Styles (CSS)</p>
+        <button type="button" onclick='document.getElementById("satu").style.fontSize = "35px";'>touch me.</button>
+        <hr>
+
+        <h1>What can Javascript Do?</h1>
+        <p id="dua">JavaScript Can Hide HTML Elements</p>
+        <button type="button" onclick='document.getElementById("dua").style.display = "none";'>touch me.</button>
+        <hr>
+
+        <h1>What can Javascript Do?</h1>
+        <p>JavaScript Can Show HTML Elements</p>
+        <p id="tiga" style="display:none">Polnep debes</p>
+        <button type="button" onclick='document.getElementById("tiga").style.display = "block";'>touch me.</button>
+    </body>
+</html>
